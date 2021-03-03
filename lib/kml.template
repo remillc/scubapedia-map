@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+  xmlns:gx="http://www.google.com/kml/ext/2.2"
+  xmlns:kml="http://www.opengis.net/kml/2.2"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+    <name>Liste des sites de Scubapedia</name>
+    <open>1</open>
+    <description><![CDATA[<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://scubapedia.ca">Carte des sites de plong�es de Scubapedia</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://thousandislandsshipwrecks.ca/">Christian R�millard <christian.remillard@gmail.com>; Sylvain Marcotte</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>]]></description>
+    <Style id="icon-normal">
+      <IconStyle>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[Carte des sites de plongées de Scubapedia by Christian Rémillard <christian.remillard@gmail.com>; Sylvain Marcotte is licensed under CC BY 4.0 ]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+
+      {{#each this}}
+    <Placemark>
+      <name>{{title}}</name>
+      <description><![CDATA[{{{description}}}]]></description>
+      <styleUrl>#icon</styleUrl>
+      <Point>
+        <coordinates>
+            {{coordinates}}
+        </coordinates>
+      </Point>
+    </Placemark>
+      {{/each}}
+  </Document>
+</kml>

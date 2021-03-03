@@ -1,0 +1,29 @@
+{
+    "name": "scubapedia-extractor",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "kmz": "node -r esm ./lib/kml.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "archiver": "^5.2.0",
+        "axios": "^0.21.1",
+        "cheerio": "^1.0.0-rc.5",
+        "extract-urls": "^1.3.2",
+        "handlebars": "^4.7.7",
+        "jquery": "^3.5.1",
+        "jsdom": "^16.4.0",
+        "progress": "^2.0.3",
+        "promise-sequential": "^1.1.1",
+        "random-useragent": "^0.5.0",
+        "wait": "^0.4.2"
+    },
+    "devDependencies": {
+        "esm": "^3.2.25"
+    }
+}
