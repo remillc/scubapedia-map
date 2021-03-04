@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body > h3 {
+    font-size: 2.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 0.5em;
+    padding-bottom: 0.17em;
+}
+
+h2 {
+    font-size: 150%;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+.thumb {
+    margin-bottom: 0.5em;
+    width: auto;
+    background-color: #0000;
+}
+
+.thumbinner {
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    background-color: #f8f9fa;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.tright {
+    margin: 0.5em 0 1.3em 1.4em;
+}
+
+.tright,
+.floatright {
+    clear: right;
+    float: right;
+}
+
+.tleft {
+    margin: 0.5em 1.4em 1.3em 0;
+}
+
+.tleft,
+.floatleft {
+    float: left;
+    clear: left;
+}
+
+.gallery {
+    margin: 2px;
+    padding: 2px;
+    display: block;
+}
+
+.gallerybox {
+    vertical-align: top;
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+.gallerytext {
+    overflow: hidden;
+    font-size: 94%;
+    padding: 2px 4px;
+    word-wrap: break-word;
+}
+
+.gallerybox .thumb {
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+}
+
+li.gallerybox .thumb {
+    text-align: center;
+    margin: 2px;
+}
