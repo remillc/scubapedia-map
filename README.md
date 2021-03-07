@@ -7,7 +7,7 @@ Script that genetates a .kmz map file from scubapedia.ca's dive sites.
 ```
 > git clone https://github.com/remillc/scubapedia-map.git
 > npm install
-> npm run kml
+> npm run kmz
 ```
 
 ## Imbrication 

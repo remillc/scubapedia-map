@@ -5,15 +5,23 @@ html {
 }
 
 body {
-    padding: 20px 40px;
-    padding: calc(0);
+    padding: 0;
 }
 
 body>h3,
 h1 {
     font-size: 2.5em;
     margin-bottom: 1em;
+    margin-left: 30px;
+    margin-left: calc(0);
+    margin-right: 30px;
+    margin-right: calc(0);
     padding: 0;
+}
+
+.mw-content-ltr {
+    margin: 30px;
+    margin: calc(0)
 }
 
 .lien-scubapedia {
@@ -28,6 +36,7 @@ h3,
 h4,
 h5,
 h6 {
+    clear: both;
     font-weight: normal;
     margin: 0;
     overflow: hidden;
@@ -46,7 +55,7 @@ h4:after,
 h5:before,
 h5:after,
 h6:before,
-h6:after,
+h6:after
     {
     content: " ";
     display: table;
@@ -64,6 +73,16 @@ h6:after {
 h2 {
     font-size: 150%;
     border-bottom: 1px solid #a2a9b1;
+}
+
+table {
+    border-collapse: collapse;
+    line-height: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    font-variant: inherit;
+    font-style: inherit;
+    color: inherit;
 }
 
 .thumb {

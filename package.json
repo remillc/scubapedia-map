@@ -1,7 +1,7 @@
 {
-    "name": "scubapedia-extractor",
-    "version": "1.0.1",
-    "description": "",
+    "name": "scubapedia-map",
+    "version": "1.0.2",
+    "description": "Creates a .kmz file from Scubapedia.ca's dive sites.",
     "main": "index.js",
     "scripts": {
         "kmz": "node -r esm ./lib/kml.js",
