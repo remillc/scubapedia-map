@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"
-  xmlns:gx="http://www.google.com/kml/ext/2.2"
-  xmlns:kml="http://www.opengis.net/kml/2.2"
-  xmlns:atom="http://www.w3.org/2005/Atom">
+  xmlns:gx="http://www.google.com/kml/ext/2.2">
   <Document>
-    <name>Liste des sites de Scubapedia</name>
+    <name>Carte des sites de plongée de Scubapedia</name>
     <open>1</open>
-    <description><![CDATA[<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title" rel="cc:attributionURL">Carte des sites de plongées de Scubapedia v{{version}}</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://thousandislandsshipwrecks.ca/">Christian Rémillard <christian.remillard@gmail.com>; Sylvain Marcotte</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>]]></description>
+    <description><![CDATA[<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title" rel="cc:attributionURL">Carte des sites de plongée de Scubapedia v{{version}}</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://thousandislandsshipwrecks.ca/">Christian Rémillard <christian.remillard@gmail.com>; Sylvain Marcotte</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>]]></description>
     <LookAt>
       <longitude>-69.21414220149677</longitude>
       <latitude>46.20980311399416</latitude>
@@ -25,9 +23,6 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <!--BalloonStyle>
-        <text><![CDATA[Carte des sites de plongées de Scubapedia by Christian Rémillard <christian.remillard@gmail.com>; Sylvain Marcotte is licensed under CC BY 4.0 ]]></text>
-</BalloonStyle-->
     </Style>
     <Style id="icon-highlight">
       <IconStyle>
